@@ -19,7 +19,7 @@ func main() {
 	routes.RegisterRoutes(router, studentHandler)
 
 	s := &http.Server{
-		Addr:         ":4000",
+		Addr:         ":8000",
 		Handler:      router,
 		// IdleTimeout:  120 * time.Second,
 		// ReadTimeout:  1 * time.Second,
